@@ -1,0 +1,22 @@
+{
+  "name": "react-animation-frame-example",
+  "version": "0.0.1",
+  "description": "An example project using the React Animation Frame component",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && browserify src/index.jsx -o dist/index.js -t [ babelify --presets [react] ] && cp src/index.html dist/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Wright <james@jamesswright.co.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "7.3.0",
+    "browserify": "14.1.0",
+    "babel-preset-react": "6.23.0"
+  },
+  "dependencies": {
+    "react": "15.4.2",
+    "react-animation-frame": "0.0.2",
+    "react-dom": "15.4.2"
+  }
+}
